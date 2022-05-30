@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#2D2327"
+    tools:context=".BakiyeSorgulama">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bakiyeniz: "
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/KartNumarasi16"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_margin="30dp"
+        android:hint="16 Haneli Kart Numarası"
+        android:drawableStart="@drawable/custom_card_icon_view"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/white"
+        android:inputType="number"
+        android:maxLength="16"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/sorgula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@color/buttoncolor"
+        android:text="Sorgula"/>
+
+
+</LinearLayout>

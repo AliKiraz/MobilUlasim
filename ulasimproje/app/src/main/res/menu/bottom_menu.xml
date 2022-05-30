@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Otobusler"
+        android:title="Otobüsler"
+        android:icon="@drawable/ic_baseline_directions_bus_24"/>
+
+    <item android:id="@+id/BakiyeSorgulama"
+        android:title="Bakiye Sorgulama"
+        android:icon="@drawable/ic_baseline_attach_money_24"/>
+
+
+
+</menu>

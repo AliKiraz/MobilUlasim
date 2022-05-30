@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/guzergahbilgisi"
+        android:title="Güzergah Bilgisi"
+        android:icon="@drawable/ic_baseline_emoji_transportation_24"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/geri"
+        android:title="Geri"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2D2327"
+    tools:context=".Otobusler">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/linLay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <SearchView
+                android:id="@+id/arama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:queryHint="Arama"/>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/icon_bus"
+                android:gravity="left"
+                android:paddingTop="9dp"
+                android:text="1 Çaydurt-Merkez"
+                android:textColor="#B5C2B7"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="2 Yukarısoku-Merkez"/>
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="3 Dağkent-Merkez-Sanayi"/>
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="4 Sarıcalar-Merkez"/>
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="5 Memursen-Aşasoku-Merkez"/>
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="6 Alpagut-Çakmaklar-Karacaağaç"/>
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="7 Üniversite-Sümer-Merkez"/>
+
+            <Button
+                android:id="@+id/btn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="8 Sağlık-Bahçelievler-Merkez"/>
+
+            <Button
+                android:id="@+id/btn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="9 Karacasu-Merkez"/>
+
+            <Button
+                android:id="@+id/btn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="10 500 Evler-Dadıç-Toki"/>
+
+            <Button
+                android:id="@+id/btn11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="11 Devlet Hastanesi-Kanalyolu"/>
+
+            <Button
+                android:id="@+id/btn12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="12 500 Evler-Hattat Emin Barın-Üni"/>
+
+            <Button
+                android:id="@+id/btn13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="14 Hıghway-Merkez"/>
+
+            <Button
+                android:id="@+id/btn14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="15 D100-Üniversite"/>
+
+            <Button
+                android:id="@+id/btn15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="16 Kürkçüler-Üniversite"/>
+
+            <Button
+                android:id="@+id/btn16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="17 Dağkent-Üniversite"/>
+
+            <Button
+                android:id="@+id/btn17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:textColor="#B5C2B7"
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/icon_bus"
+                android:paddingTop="9dp"
+                android:text="30 Üniversite Ring"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

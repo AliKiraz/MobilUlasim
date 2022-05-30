@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/yukle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D2327"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ParaYukleme">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/KartNumarasi16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:drawableStart="@drawable/custom_card_icon_view"
+        android:drawablePadding="10dp"
+        android:hint="16 Haneli Kart Numarası"
+        android:inputType="number"
+        android:maxLength="16"
+        android:padding="15dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/KrediKarti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:drawableStart="@drawable/custom_creditcard_icon_view"
+        android:drawablePadding="10dp"
+        android:hint="Kredi Kartı Numrası"
+        android:inputType="number"
+        android:maxLength="16"
+        android:padding="15dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/Miktar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:drawableStart="@drawable/custom_money_icon_view"
+        android:drawablePadding="10dp"
+        android:hint="Yüklenecek Miktar"
+        android:inputType="number"
+        android:maxLength="4"
+        android:padding="15dp"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/yuklebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@color/buttoncolor"
+        android:text="Yükle" />
+
+</LinearLayout>
